@@ -51,10 +51,10 @@ async def url_get(r: int, url: str, verbose: bool) -> int:
 global loop
 
 
-help_requests = "Number of concurrent requests to be made (default 2)"
+help_requests = "Number of concurrent requests to be made (default 1)"
 help_sets = (
     "Number of times set of concurrent requests should "
-    "be executed (default 0 for continuous)"
+    "be executed (default -1 for continuous)"
 )
 help_verbose = "Make output verbose"
 
@@ -64,7 +64,7 @@ CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
 @click.command(context_settings=CONTEXT_SETTINGS)
 @click.argument("url")
 @click.option("-r", "--requests", default=1, help=help_requests)
-@click.option("-s", "--sets", default=0, help=help_sets)
+@click.option("-s", "--sets", default=-1, help=help_sets)
 @click.option("-v", "--verbose", is_flag=True, help=help_verbose)
 def main(url: str, requests: int, sets: int, verbose: bool):
     """

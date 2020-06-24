@@ -30,7 +30,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Mark Servilla",
-    url="https://github.com/PASTAplus/PinchMe",
+    url="https://github.com/servilla/Load",
     license=full_license,
     packages=find_packages(where="src"),
     include_package_data=True,

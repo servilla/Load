@@ -1,0 +1,10 @@
+name: load
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - click
+  - aiohttp
+  - black
+prefix: /home/servilla/anaconda3/envs/load

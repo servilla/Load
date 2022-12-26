@@ -19,5 +19,5 @@ setuptools==49.6.0.post20210108
 toml==0.10.2
 typed-ast==1.4.2
 typing-extensions==3.7.4.3
-wheel==0.36.2
+wheel==0.38.1
 yarl==1.6.3

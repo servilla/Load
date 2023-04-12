@@ -3,8 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
-  - click
   - aiohttp
   - black
+  - click
+  - python=3.11
+  - daiquiri
 prefix: /home/servilla/anaconda3/envs/load

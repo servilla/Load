@@ -25,7 +25,7 @@ with open(path.join(here, 'LICENSE'), encoding='utf-8') as f:
 
 setup(
     name="load",
-    version="2020.06.23",
+    version="2023.04.12",
     description="Load test web service",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -36,10 +36,11 @@ setup(
     include_package_data=True,
     exclude_package_data={"": ["settings.py, properties.py, config.py"],},
     package_dir={"": "src"},
-    python_requires=">3.8.*",
+    python_requires=" >= 3.11",
     install_requires=[
-        "click >= 7.1.2",
-        "daiquiri >= 2.1.1",
+        "click >= 8.1.3",
+        "daiquiri >= 3.0.0",
+        "aiohttp >= 3.8.4"
         ],
     entry_points={"console_scripts": ["load=Load.load:main"]},
     classifiers=[

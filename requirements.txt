@@ -7,7 +7,7 @@ click==8.2.1
 daiquiri==3.0.0
 frozenlist==1.6.0
 idna==3.10
-multidict==6.5.0
+multidict==6.6.3
 mypy_extensions==1.1.0
 packaging==25.0
 pathspec==0.12.1

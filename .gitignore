@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 # Project ignores
-.idea
+.idea# pixi environments
+.pixi/*
+!.pixi/config.toml

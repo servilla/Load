@@ -1,17 +1,17 @@
 _openmp_mutex==4.5
-aiohappyeyeballs==2.6.1
+aiohappyeyeballs==2.6.2
 aiohttp==3.13.5
 aiosignal==1.4.0
 async-timeout==5.0.1
 attrs==26.1.0
 bzip2==1.0.8
-ca-certificates==2026.4.22
+ca-certificates==2026.5.20
 click==8.4.0
 daiquiri==3.0.0
 frozenlist==1.7.0
-idna==3.13
+idna==3.15
 ld_impl_linux-64==2.45.1
-libexpat==2.8.0
+libexpat==2.8.1
 libffi==3.5.2
 libgcc==15.2.0
 libgomp==15.2.0
@@ -25,7 +25,7 @@ multidict==6.7.1
 ncurses==6.6
 openssl==3.6.2
 propcache==0.3.1
-python==3.14.4
+python==3.14.5
 python-json-logger==3.2.1
 python_abi==3.14
 readline==8.3
@@ -33,5 +33,5 @@ tk==8.6.13
 typing-extensions==4.15.0
 typing_extensions==4.15.0
 tzdata==2025c
-yarl==1.23.0
+yarl==1.24.2
 zstd==1.5.7
